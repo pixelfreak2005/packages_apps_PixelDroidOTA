@@ -1,0 +1,13 @@
+#
+# OTA XML
+#
+ota_url=https://github.com/pixelfreak2005/OTA/blob/nougat-PF/r7plus-N-Pixel.xml
+release_type= stable
+device_name=ro.pixeldroid.device
+#
+# VERSION
+#
+version_source=ro.pixeldroid.version
+version_delimiter=-
+version_position= 5
+version_format=yyyyMMdd
