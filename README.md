@@ -1,4 +1,4 @@
-ResurrectionOTA
+PixelDroidOTA
 -------
 A very simple OTA checker with Android Settings look and feel.
 
@@ -9,27 +9,21 @@ If the version is newer, it notifies the user for a new ROM update.
 
 How to use
 ----------
-* Prepare the OTA xml file. Use this [template](https://raw.githubusercontent.com/ResurrectionRemix/OTA/master/akhil.xml).
+* Prepare the OTA xml file. Use this [template](https://raw.githubusercontent.com/Pixelfreak2005/OTA/nougat-PF/r7plus-N-Pixel.xml).
 * Upload it to your file hosting and create a hot link of it
-* Copy the [ota_conf template](https://raw.githubusercontent.com/ResurrectionRemix/OTA/master/example%20ota_conf) to the root of rr source, as a text file called "ota_conf" (without the quotes)
-* Template is also in https://raw.githubusercontent.com/ResurrectionRemix/packages_apps_ResurrectionOTA/marshmallow/ota_conf
+* Copy the [ota_conf template](https://raw.githubusercontent.com/Pixelfreak2005/packages_apps_PixelDroidOTA/nougat-PF/examples/ota_conf) to app/src/main/assets folder
+  * If you are buiding this app as part of the ROM, you need to copy ota_conf in the android root folder.
+  * The Android.mk will pick it up and copy it to app/src/main/assets folder automatically.
 * Replace the "ota_url" with your OTA xml hot link
-* Check the xml template, and make your own, on your github, and place the resultant link to the raw file in the ota_conf
-* If using the given samples, ota_conf is all setup! Else you will have to setup the version checking, etc.
-
-
-### Most guys can skip the below part
-
-Define how ResurrectionOTA should know about the "version". The version must be parseable to a date.
-Usually, the version is a part of a build name. For example, the 20150426 in the SlimSaber-bacon-5.0.2-20150426.
-Adjust the OTA configuration according to your build name on how should ResurrectionOTA parse the version
-Find a key in build.prop that represents the ResurrectionRemix-M-v5.7.0-20160622-falcon.zip and set it in the "version_name"
-Set the delimiter in "version_delimiter" to "-"
-Set the date format in "version_format" to "yyyyMMdd"
-Set the position in "version_position" to "3" (zero based)
-Find a key in build.prop that represents your device name and set it in the "device_name"
-ResurrectionOTA will search this device name in the OTA xml file
-
+* Define how PixelDroidOTA should know about the "version". The version must be parseable to a date.
+  * Usually, the version is a part of a build name. For example, the 20161212 in the PixelDroid-N-v5.8.0-20161212-r7plus.zip
+* Adjust the OTA configuration according to your build name on how should PixelDroidOTA parse the version
+  * Find a key in build.prop that represents the SlimSaber-bacon-5.0.2-20150426 and set it in the "version_name"
+  * Set the delimiter in "version_delimiter" to "-"
+  * Set the date format in "version_format" to "yyyyMMdd"
+  * Set the position in "version_position" to "5" (zero based)
+* Find a key in build.prop that represents your device name and set it in the "device_name"
+  * PixelDroid will search this device name in the OTA xml file
 
 Credits
 -------
@@ -37,3 +31,9 @@ Credits
   * For the original idea of the SlimCenter and app icon
 * [CommonsWare Android Components](https://github.com/commonsguy/cwac-wakeful)
   * For the wakeful intent service that is used in this app
+
+Screenshots
+-----------
+<img alt="Screenshot"
+   width="270" height="480" 
+   src="https://raw.githubusercontent.com/SlimSaber/packages_apps_SlimOTA/lp5.0/screenshots/Screenshot_20150505_1317.png" />

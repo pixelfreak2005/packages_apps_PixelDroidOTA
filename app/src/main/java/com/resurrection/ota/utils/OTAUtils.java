@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.utils;
+package com.pixeldroid.ota.utils;
 
 import android.content.Context;
 import android.content.Intent;

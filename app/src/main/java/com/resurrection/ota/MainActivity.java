@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota;
+package com.pixeldroid.ota;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 
-import com.resurrection.ota.configs.LinkConfig;
-import com.resurrection.ota.dialogs.WaitDialogFragment;
-import com.resurrection.ota.fragments.SlimOTAFragment;
+import com.pixeldroid.ota.configs.LinkConfig;
+import com.pixeldroid.ota.dialogs.WaitDialogFragment;
+import com.pixeldroid.ota.fragments.SlimOTAFragment;
 
 public class MainActivity extends PreferenceActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {

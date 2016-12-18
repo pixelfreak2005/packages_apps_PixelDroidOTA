@@ -1,4 +1,4 @@
-package com.resurrection.ota;
+package com.pixeldroid.ota;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
