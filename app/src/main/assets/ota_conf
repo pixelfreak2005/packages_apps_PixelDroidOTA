@@ -1,7 +1,7 @@
 #
 # OTA XML
 #
-ota_url=https://github.com/pixelfreak2005/OTA/blob/nougat-PF/r7plus-N-Pixel.xml
+ota_https://raw.githubusercontent.com/pixelfreak2005/OTA/PF/r7plus-N-Pixel.xml
 release_type= stable
 device_name=ro.pixeldroid.device
 #
