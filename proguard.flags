@@ -1,1 +1,1 @@
--keep class com.resurrection.ota.core.OTAListener
+-keep class com.pixeldroid.ota.core.OTAListener

@@ -22,7 +22,7 @@ import android.net.Uri;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.resurrection.ota.configs.OTAConfig;
+import com.pixeldroid.ota.configs.OTAConfig;
 
 import java.io.BufferedReader;
 import java.io.File;

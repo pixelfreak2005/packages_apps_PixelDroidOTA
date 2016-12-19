@@ -9,5 +9,5 @@ device_name=ro.pixeldroid.device
 #
 version_source=ro.pixeldroid.version
 version_delimiter=-
-version_position= 5
+version_position=3
 version_format=yyyyMMdd
