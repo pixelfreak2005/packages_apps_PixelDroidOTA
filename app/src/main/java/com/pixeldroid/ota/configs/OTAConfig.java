@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.pixeldroid.ota.configs;
+package com.pf.ota.configs;
 
 import android.content.Context;
 
-import com.pixeldroid.ota.utils.OTAUtils;
+import com.pf.ota.utils.OTAUtils;
 
 import java.io.IOException;
 import java.io.InputStream;

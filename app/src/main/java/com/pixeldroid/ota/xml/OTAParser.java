@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixeldroid.ota.xml;
+package com.pf.ota.xml;
 
 import android.util.Xml;
 

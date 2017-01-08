@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixeldroid.ota.dialogs;
+package com.pf.ota.dialogs;
 
 import android.app.Activity;
 import android.app.Fragment;

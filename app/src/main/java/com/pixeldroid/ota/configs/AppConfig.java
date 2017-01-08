@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixeldroid.ota.configs;
+package com.pf.ota.configs;
 
 import android.app.AlarmManager;
 import android.content.Context;
@@ -22,9 +22,9 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
-import com.pixeldroid.ota.R;
-import com.pixeldroid.ota.scheduler.OTAListener;
-import com.pixeldroid.ota.utils.OTAUtils;
+import com.pf.ota.R;
+import com.pf.ota.scheduler.OTAListener;
+import com.pf.ota.utils.OTAUtils;
 
 import java.text.DateFormat;
 import java.util.Date;

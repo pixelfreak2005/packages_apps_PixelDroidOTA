@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixeldroid.ota.scheduler;
+package com.pf.ota.scheduler;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -25,8 +25,8 @@ import android.net.NetworkInfo;
 import android.os.SystemClock;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
-import com.pixeldroid.ota.configs.AppConfig;
-import com.pixeldroid.ota.utils.OTAUtils;
+import com.pf.ota.configs.AppConfig;
+import com.pf.ota.utils.OTAUtils;
 
 public class OTAListener implements WakefulIntentService.AlarmListener {
 

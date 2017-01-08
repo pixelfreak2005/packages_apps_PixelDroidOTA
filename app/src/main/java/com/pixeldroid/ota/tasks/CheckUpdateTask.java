@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixeldroid.ota.tasks;
+package com.pf.ota.tasks;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -28,16 +28,16 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 
-import com.pixeldroid.ota.MainActivity;
-import com.pixeldroid.ota.R;
-import com.pixeldroid.ota.configs.AppConfig;
-import com.pixeldroid.ota.configs.LinkConfig;
-import com.pixeldroid.ota.configs.OTAConfig;
-import com.pixeldroid.ota.configs.OTAVersion;
-import com.pixeldroid.ota.dialogs.WaitDialogHandler;
-import com.pixeldroid.ota.utils.OTAUtils;
-import com.pixeldroid.ota.xml.OTADevice;
-import com.pixeldroid.ota.xml.OTAParser;
+import com.pf.ota.MainActivity;
+import com.pf.ota.R;
+import com.pf.ota.configs.AppConfig;
+import com.pf.ota.configs.LinkConfig;
+import com.pf.ota.configs.OTAConfig;
+import com.pf.ota.configs.OTAVersion;
+import com.pf.ota.dialogs.WaitDialogHandler;
+import com.pf.ota.utils.OTAUtils;
+import com.pf.ota.xml.OTADevice;
+import com.pf.ota.xml.OTAParser;
 
 import org.xmlpull.v1.XmlPullParserException;
 

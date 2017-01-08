@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixeldroid.ota.fragments;
+package com.pf.ota.fragments;
 
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -25,14 +25,14 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import com.pixeldroid.ota.R;
-import com.pixeldroid.ota.configs.AppConfig;
-import com.pixeldroid.ota.configs.LinkConfig;
-import com.pixeldroid.ota.configs.OTAVersion;
-import com.pixeldroid.ota.dialogs.WaitDialogFragment;
-import com.pixeldroid.ota.tasks.CheckUpdateTask;
-import com.pixeldroid.ota.utils.OTAUtils;
-import com.pixeldroid.ota.xml.OTALink;
+import com.pf.ota.R;
+import com.pf.ota.configs.AppConfig;
+import com.pf.ota.configs.LinkConfig;
+import com.pf.ota.configs.OTAVersion;
+import com.pf.ota.dialogs.WaitDialogFragment;
+import com.pf.ota.tasks.CheckUpdateTask;
+import com.pf.ota.utils.OTAUtils;
+import com.pf.ota.xml.OTALink;
 
 import java.util.List;
 

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.pixeldroid.ota;
+package com.pf.ota;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 
-import com.pixeldroid.ota.configs.LinkConfig;
-import com.pixeldroid.ota.dialogs.WaitDialogFragment;
-import com.pixeldroid.ota.fragments.SlimOTAFragment;
+import com.pf.ota.configs.LinkConfig;
+import com.pf.ota.dialogs.WaitDialogFragment;
+import com.pf.ota.fragments.SlimOTAFragment;
 
 public class MainActivity extends PreferenceActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.pixeldroid.ota.configs;
+package com.pf.ota.configs;
 
 import android.content.Context;
 
-import com.pixeldroid.ota.xml.OTALink;
-import com.pixeldroid.ota.xml.OTAParser;
-import com.pixeldroid.ota.utils.OTAUtils;
+import com.pf.ota.xml.OTALink;
+import com.pf.ota.xml.OTAParser;
+import com.pf.ota.utils.OTAUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

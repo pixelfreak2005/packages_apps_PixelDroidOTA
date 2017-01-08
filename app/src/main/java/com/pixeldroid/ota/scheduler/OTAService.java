@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.pixeldroid.ota.scheduler;
+package com.pf.ota.scheduler;
 
 import android.content.Intent;
 import android.os.AsyncTask;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
-import com.pixeldroid.ota.tasks.CheckUpdateTask;
+import com.pf.ota.tasks.CheckUpdateTask;
 
 public class OTAService extends WakefulIntentService {
 
